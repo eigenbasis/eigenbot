@@ -72,3 +72,8 @@ game_wr = {"Syberia": "Syberia WR is 2:00:16 by Nicko!",
            "Year Walk": "Year Walk WR is 13m 53s by eigenbasis",
            "Runner2": "Bit.Trip Presents... Runner2: Future Legend of Rhythm Alien WR is 1h 47m 19s by eigenbasis",
            "GTA: SA": "Grand Theft Auto: San Andreas WR is 4h 22m 19s by lelreset"}
+
+bad_words = []
+
+with open("bad_words.txt") as f:
+    bad_words = f.read().splitlines()
